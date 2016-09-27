@@ -11,4 +11,7 @@ if [[ ! -f ${crypto_dir}/server.key ]] ; then
 fi
 
 # Start the python application
+export SIMPLE_SETTINGS=settings.default
+export OAUTHLIB_RELAX_TOKEN_SCOPE=1
+
 python $script_dir/../app.py
