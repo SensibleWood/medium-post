@@ -1,0 +1,4 @@
+settings/development.py
+.idea
+crypto/*
+**/__pycache__/**
